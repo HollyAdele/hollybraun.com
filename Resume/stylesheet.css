@@ -1,0 +1,76 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	height: 60px;
+	background-color: coral;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#name {
+	float: left;
+	margin-left: 5px;
+	margin-top: 15px;
+	font-size: 23px;
+	font-family: Georgia, serif;
+	color: black;
+}
+
+#email {
+	float:right;
+	margin-right: 5 px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Georgia;
+	color: black;
+}
+
+li {
+	list-style-type: square;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	Position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 15%;
+	height: 1200px;
+	background-color: yellow;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 83%;
+	height: 1200px;
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	background-color: coral;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15 px;
+}
+	
