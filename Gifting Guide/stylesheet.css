@@ -1,0 +1,88 @@
+* {
+	color: charcoal; /* makes all text off-black */
+}
+
+h1 {
+	text-align: center; /* centers "Braun Gifting Guide" */
+	font-family: Verdana;
+}
+
+h2 {
+	font-family: Helvetica;
+	text-align: center;
+	margin-top: 40px; /* gives enough space after navbar*/
+}
+
+table {
+	border: none;
+	margin: 0 auto;	/*centers table horizonally*/
+	border-radius: 10px; /*really rounded edges*/
+	background-color:#ff9d5f; /*coral*/
+}
+
+td {
+	border-bottom: 1px dotted black; /*cute size card feel*/
+	width: 75px; /*uniform width*/
+	text-align: center;
+}
+
+#last-updated {
+	text-align: center;
+	font-size: 10px; 
+}
+
+body {
+	background-color: #ff9d5f; /*coral*/
+	font-family: Arial; /*all text except h1 and h2*/
+}
+
+#content {
+	margin: 10px auto;
+	width: 80%;
+	border-radius: 5px;
+	background-color: ivory;
+	padding: 16px;
+}
+
+a:link {
+	color: #ff9d5f;
+}
+
+a:visited {
+	color: #ff9d5f;
+}
+
+a:hover {
+	color: #ff9d5f;
+}
+
+a:active{
+	color: #ff9d5f;
+}
+
+#toc {
+	list-style-type: none; /*take away bullet points from ol*/
+	margin: 0; 
+	padding: 0;
+} 
+
+ol a { /*navbar links*/
+	display: block;
+	width: 130px; /*uniform width that almost extends across the whole content area of my current browser size*/
+	height: 20px; /*because I can't figure out how to center text vertically*/
+	text-decoration: none; /*instead of underlined links*/
+	background-color: gray;
+	border-radius: 5px;
+	margin-right: 10px; /*to give navbar buttons separation*/
+	
+}
+
+ol li { /*navbar buttons*/
+	float: left; /*to make the list horizonal*/
+	text-align: center;
+	
+}
+
+
+
+
