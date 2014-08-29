@@ -11,7 +11,7 @@
 	border-bottom: 1px solid pink;
 	text-align: center;
 	position: fixed;
-	
+	z-index: 1;
 }
 
 .navbar li {
@@ -19,17 +19,21 @@
 	padding: 0 10px 0 10px; 
 }
 
+.navbar a:link, .navbar a:visited, .navbar a:hover, .navbar a:active {
+	text-decoration: none;
+	color: white;
+}
+
 .left {
 	float: left;
 	width: 20%;
 	position: fixed;
+	margin-top: 6em;
 }
 
 header {
 	max-width: 100%;
-	background-color: pink;
-	font-size: 5ems;
-	}
+}
 
 img {
 	max-width: 100%;
