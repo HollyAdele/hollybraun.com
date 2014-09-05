@@ -31,6 +31,15 @@
 	margin-top: 6em;
 }
 
+.left a:link, .left a:visited, .left a:hover, .left a:active {
+	/*text-decoration: none;*/
+	color: black;
+}
+
+.left li {
+	list-style-type: none;
+}
+
 header {
 	max-width: 100%;
 }
@@ -45,7 +54,7 @@ img {
 }
 
 .whiteSpace {
-	height: 100px;
+	height: 150px;
 }
 
 .content{
